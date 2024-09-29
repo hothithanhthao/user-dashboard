@@ -7,7 +7,7 @@ This project is a simple user dashboard built with **React** and **TypeScript** 
 - **React**: For building the UI with a component-based architecture.
 - **TypeScript**: For static typing and improved code quality.
 - **SWR**: For data fetching, chosen due to its caching, background revalidation, and automatic error handling.
-- **Sass (SCSS)**: For modular and maintainable styling with features like nesting and variables.
+- **CSS module**: For modular and maintainable styling with features like nesting and variables.
 
 ## **Installation**
 
