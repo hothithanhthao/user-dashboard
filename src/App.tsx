@@ -1,6 +1,8 @@
 import React from 'react';
 import useSWR from 'swr';
+import UserList from './components/UserList/UserList';
 import { User } from './types';
+import styles from './App.module.css';
 
 const fetcher = (url: string) => fetch(url).then(res => res.json());
 
@@ -11,8 +13,9 @@ const App: React.FC = () => {
   if (!users) return <div>Loading...</div>;
 
   return (
-    <div className="app-container">
+    <div className={styles.dashboard}>
       <h1>User Dashboard</h1>
+      <UserList users={users} />
     </div>
   );
 };

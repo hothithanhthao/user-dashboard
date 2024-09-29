@@ -1,0 +1,9 @@
+.userListContainer {
+  margin: 2rem auto;
+}
+
+.userList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
